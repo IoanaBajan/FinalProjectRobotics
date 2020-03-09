@@ -1,5 +1,5 @@
 # CANDY CLAW MACHINE ARCADE GAME
-#### For our final project in the "Introduction To Robotics" course, we decided to create a candy claw machine, because we considered it to be a pretty "sweet" idea.
+#### For our final project in the "Introduction To Robotics" course, [@Diana](https://github.com/dianapaula19) and I decided decided to create a candy claw machine, because we considered it to be a pretty "sweet" idea.
 
 ## DEMO VIDEO
 Link to the video: http://bit.do/videoFinalProject
@@ -45,6 +45,20 @@ Link to the BOM: http://bit.do/clawMachineBOM
 1. In order to start playing the game, you need to insert a coin. After the completion of this simple task, all you need to do is to switch to the console and press the start button.   
 2. The claw is controlled by two joysticks. One of the them controls the movement on the X and Y axes, while the other one control the movement on the Z axis. Also, pressing the button of the latter joystick open and closes the claw, allowing you to grab that candy.
 3. You have exactly three minutes to grab a prize, after that the game is over and you need to insert another coin to start again. 
+
+## ISSUES
+
+Our project is not fully functional and it has this following issues:
+1. the motors aren't working properly even tho the console's transceiver is sending the correct data
+2. the Servo motor responsible for the opening and closing mechanism of the claw doesn't have enough power to function when the rest of the motors are connected
+3. even though the ultrasonics are working properly, they still can't detect the insertion of the coin
+
+## WHAT WE'VE LEARNED 📕
+
+While making this project we've learned the following things:
+1. that 5 motors require a lot more power than expected in order to function properly
+2. how tranceivers send and receive data
+3. how to use pulleys to make an object lighte
 
 We also made a pretty cool guide to this game: http://bit.do/clawMachineGuide
 
